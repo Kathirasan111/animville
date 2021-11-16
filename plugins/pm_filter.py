@@ -287,17 +287,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
         elif query.data == "about":
             buttons = [[
-            InlineKeyboardButton('👨‍💼𝐃𝐄𝐕', url='https://t.me/Sanoob_Achu_18'),
-            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏📽️', url='https://t.me/PCLinks')
+            InlineKeyboardButton('👨‍💼𝐃𝐄𝐕', url='https://t.me/DDRabit'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏📽️', url='https://t.me/CK_linkz')
         ],[
-            InlineKeyboardButton('🎞️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🎞️', url='https://t.me/PCLinks_1')
+            InlineKeyboardButton('🎞️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🎞️', url='https://t.me/CKofficials')
         ],[
             InlineKeyboardButton('🗣️𝐀𝐒𝐊 𝐍𝐎𝐖', url='https://t.me/TTRabit'),
-            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1')
+            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/Ckottrelease_links')
         ],[
-            InlineKeyboardButton('👥𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽👥', url='https://t.me/PCSupportGroup_18')
+            InlineKeyboardButton('👥𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽👥', url='https://t.me/CK_linkz')
         ]]
-            await query.message.edit(text="<b>🍿 𝖯𝗋𝗂𝗆𝖾 𝖢𝗂𝗇𝖾𝗆𝖺𝗌 🎬: <a href='https://t.me/PCLinks'>🔰GROUP🔰</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>🎭MOVIEGROUP🎭: <a href='https://t.me/CK_linkz'>🔰GROUP🔰</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -317,10 +317,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [[
-            InlineKeyboardButton('🔊𝑪𝒉𝒂𝒏𝒏𝒆𝒍🔊', url='https://t.me/PCLinks_1'),
-            InlineKeyboardButton('👥𝑮𝒓𝒐𝒖𝒑👥', url='https://t.me/PCLinks')
+            InlineKeyboardButton('🔊𝑪𝒉𝒂𝒏𝒏𝒆𝒍🔊', url='https://t.me/CKofficials'),
+            InlineKeyboardButton('👥𝑮𝒓𝒐𝒖𝒑👥', url='https://t.me/CK_linkz')
           ],[
-            InlineKeyboardButton('🎭𝑵𝒆𝒘 𝑹𝒆𝒍𝒆𝒂𝒔𝒆🎭', url= 'https://t.me/joinchat/b2crtyaFjLRiMDQ1')
+            InlineKeyboardButton('🎭𝑵𝒆𝒘 𝑹𝒆𝒍𝒆𝒂𝒔𝒆🎭', url= 'https://t.me/Ckottrelease_links')
         ]]
                
                 await query.answer()
