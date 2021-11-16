@@ -11,21 +11,21 @@ logger = logging.getLogger(__name__)
 ADMINS = int(os.environ.get("ADMINS", 1745047302))
 
 PHOTO = [
-    "https://telegra.ph/file/43a5ebd42876cc100e6c6.jpg",
-    "https://telegra.ph/file/92846c8378f0c25b9c1ba.jpg",
-    "https://telegra.ph/file/34eca2bacdb0ca1bf4dfb.jpg",
-    "https://telegra.ph/file/4a8e9f00fc448dec27ec6.jpg",
-    "https://telegra.ph/file/7910b21af18197b6e7d03.jpg",
-    "https://telegra.ph/file/82b4cc6bb31a7afad0354.jpg",
-    "https://telegra.ph/file/685535abd49769a808d79.jpg",
-    "https://telegra.ph/file/69082720db542ed53f216.jpg",
-    "https://telegra.ph/file/e219cfff6eaaeb2d0483f.jpg",
-    "https://telegra.ph/file/23de5a85e802855d3174f.jpg",
-    "https://telegra.ph/file/1302fb72a9460733dd961.jpg",
-    "https://telegra.ph/file/15012e255c6be045e49d1.jpg",
-    "https://telegra.ph/file/855a1b770133d4ba007bc.jpg",
-    "https://telegra.ph/file/b66d7f54ac42e87e8cb74.jpg",
-    "https://telegra.ph/file/11e381e3cde15bae2b90a.jpg"
+    "https://telegra.ph/file/5c791319b1fd4d07d0218.jpg",
+    "https://telegra.ph/file/15124d82996db3b64231c.jpg",
+    "https://telegra.ph/file/d321ef50b7793468fec5d.jpg",
+    "https://telegra.ph/file/2a99828b1f5ca0b049c76.jpg",
+    "https://telegra.ph/file/2ee2a6131f594e1dcdbd9.jpg",
+    "https://telegra.ph/file/5c791319b1fd4d07d0218.jpg",
+    "https://telegra.ph/file/15124d82996db3b64231c.jpg",
+    "https://telegra.ph/file/d321ef50b7793468fec5d.jpg",
+    "https://telegra.ph/file/2a99828b1f5ca0b049c76.jpg",
+    "https://telegra.ph/file/2ee2a6131f594e1dcdbd9.jpg",
+    "https://telegra.ph/file/5c791319b1fd4d07d0218.jpg",
+    "https://telegra.ph/file/15124d82996db3b64231c.jpg",
+    "https://telegra.ph/file/d321ef50b7793468fec5d.jpg",
+    "https://telegra.ph/file/2a99828b1f5ca0b049c76.jpg",
+    "https://telegra.ph/file/2ee2a6131f594e1dcdbd9.jpg"
 ]
 
 @Client.on_message(filters.command("start"))
